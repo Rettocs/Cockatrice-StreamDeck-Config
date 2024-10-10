@@ -1,0 +1,240 @@
+Cockatrice > Settings > Shortcuts
+
+Add Green Counter		Ctrl+Shift+G
+Remove Green Counter		Ctrl+Shift+U
+Focus Chat			Shift+Return
+Unfocus Text Box		Esc
+Add Card			+
+Load Deck From Clipboard	Ctrl+Shift+V
+Load Deck			Ctrl+O
+New Deck			Ctrl+N
+Print Deck			Ctrl+P
+Remove Card			-
+Save Deck			Ctrl+S
+Always Reveal Top Card		Ctrl+N
+Draw a Card			Ctrl+D
+Draw Multiple Cards		Ctrl+E
+Mulligan			Ctrl+M
+Undo Draw			Ctrl+Shift+D
+Load Local Deck			Ctrl+O
+Load Remote Deck		Ctrl+Alt+O
+Set Ready to Start		Ctrl+Shift+S
+Toggle Sideboard Lock		Ctrl+B
+Draw Step			F6
+End Step			F10
+First Main Phase		F7
+Next Phase			Ctrl+Space; Tab
+Next Phase Action		Shift+Tab
+Next Turn			Ctrl+Return; Ctrl+Enter
+Second Main Phase		F9
+Start Combat			F8
+Untap				F5
+Upkeep				Shift+F5
+Connect				Ctrl+L
+Full Screen			Ctrl+F
+Move Card to Graveyard		Ctrl+Del
+Move Top Card Face Down		Ctrl+Shift+E
+Move Top Card Graveyard (M)	Ctrl+Shift+M
+Move Top Card Stack		Ctrl+Y
+Add Life Counter		F12
+Remove Life Counter		F11
+Set Life Counters		Ctrl+L
+Clone Card			Ctrl+J
+Create All Related Tokens	Ctrl+Shift+T
+Create Another Token		Ctrl+G
+Create Token			Ctrl+T
+Set Annotation			Ctrl+Alt+A
+Untap All			Ctrl+U
+Add Power			Ctrl+[+]
+Add P & T			Ctrl+Alt+[+]
+Remove Power			Ctrl+[-]
+Remove P & T			Ctrl+Alt+[-]
+Remove Toughness		Alt+[-]
+Reset P & T			Ctrl+Alt+0
+Set P & T			Ctrl+P
+Close Recent View		Esc
+View Graveyard			F4
+View Library			F3
+View Sideboard			Ctrl+F3
+View Top Cards of Library	Ctrl+W
+
+------------------------------------------------------------
+
+StreamDeck Keys:
+
+Root Page A 2	Folder: Advanced
+Root Page A 3	Reveal Top Card
+Root Page A 4	Look at Top X Cards
+Root Page A 5	Search Library
+Root Page A 6	HP Increase By 1
+Root Page A 7	HP Decrease By 1
+Root Page A 8	Set HP to X
+Root Page B 1	Shuffle Deck
+Root Page B 3	Draw X Cards
+Root Page B 5	Create a Token
+Root Page B 6	Add Green Counter to Card
+Root Page B 7	Remove Green Counter from Card
+Root Page B 8	Set Annotation on Card
+Root Page C 1	Untap All of Your Permanents
+Root Page C 3	Draw 1 Card
+Root Page C 5	Skip to Next Phase of Turn
+Root Page C 6	Roll a D20
+Root Page C 7	Roll a D6
+Root Page C 8	Flip a Coin (D2)
+Root Page D 1	Skip to Untap Step
+Root Page D 2	Skip to Unkeep Step
+Root Page D 3	Skip to Draw Step
+Root Page D 4	Skip to First Main Phase
+Root Page D 5	Skip to Combat Step
+Root Page D 6	Skip to Second Main Phase
+Root Page D 7	Skip to End Step
+Root Page D 8	Pass Turn to Next Player
+
+Advanced  A 2   Toggle Fullscreen Mode
+Advanced  A 3   Shuffles 5 Times, Draws 7 Cards, Sets to 40 Life, Rolls a D20
+Advanced  B 1   Toggle - Play with Top Card Revealed
+Advanced  B 3   Roll a Die (it asks how many sides)
+Advanced  C 1   Toggle - Play with Top Card Revealed
+
+-------------------------------------------------------------
+
+StreamDeck Functions:
+
+Root Page A 2	Folder: Advanced
+	Opens A StreamDeck Folder Called "Advanced"
+
+Root Page A 3	Reveal Top Card
+	Multi Action:
+	    System: Hotkey | Hotkey: Ctrl + N
+	    Multi Action: Delay | Delay: 300 ms
+	    System: Hotkey | Hotkey: Ctrl + N
+
+Root Page A 4	Look at Top X Cards
+	System: Hotkey | Ctrl + W
+
+Root Page A 5	Search Library
+	System: Hotkey | F3
+
+Root Page A 6	HP Increase By 1
+	System: Hotkey | F12
+
+Root Page A 7	HP Decrease By 1
+	System: Hotkey | F11
+
+Root Page A 8	Set HP to X
+	System: Hotkey | Ctrl + L
+
+Root Page B 1	Shuffle Deck
+	System: Hotkey | Ctrl + S
+
+Root Page B 3	Draw X Cards
+	System: Hotkey | Ctrl + E
+
+Root Page B 5	Create a Token
+	System: Hotkey | Ctrl + T
+
+Root Page B 6	Add Green Counter to Card
+	System: Hotkey | Ctrl + Shift + G
+
+Root Page B 7	Remove Green Counter from Card
+	System: Hotkey | Ctrl + Shift + U
+
+Root Page B 8	Set Annotation on Card
+	System: Hotkey | Ctrl + Alt + A
+
+Root Page C 1	Untap All of Your Permanents
+	System: Hotkey | Ctrl + U
+
+Root Page C 3	Draw 1 Card
+	System: Hotkey | Ctrl + D
+
+Root Page C 5	Skip to Next Phase of Turn
+	System: Hotkey | Ctrl + Space
+
+Root Page C 6	Roll a D20
+	Multi Action:
+	    System: Hotkey | Hotkey: Ctrl + I
+	    Multi Action: Delay | Delay: 150 ms
+	    System: Hotkey | Hotkey: 2
+	    System: Hotkey | Hotkey: 0
+	    Multi Action: Delay | Delay: 150 ms
+	    System: Hotkey | Hotkey: Return
+
+Root Page C 7	Roll a D6
+	Multi Action:
+	    System: Hotkey | Hotkey: Ctrl + I
+	    Multi Action: Delay | Delay: 150 ms
+	    System: Hotkey | Hotkey: 6
+	    Multi Action: Delay | Delay: 150 ms
+	    System: Hotkey | Hotkey: Return
+
+Root Page C 8	Flip a Coin (D2)
+	Multi Action:
+	    System: Hotkey | Hotkey: Ctrl + I
+	    Multi Action: Delay | Delay: 150 ms
+	    System: Hotkey | Hotkey: 2
+	    Multi Action: Delay | Delay: 150 ms
+	    System: Hotkey | Hotkey: Return
+
+Root Page D 1	Skip to Untap Step
+	System: Hotkey | F5
+
+Root Page D 2	Skip to Unkeep Step
+	System: Hotkey | Shift + F5
+
+Root Page D 3	Skip to Draw Step
+	System: Hotkey | F6
+
+Root Page D 4	Skip to First Main Phase
+	System: Hotkey | F7
+
+Root Page D 5	Skip to Combat Step
+	System: Hotkey | F8
+
+Root Page D 6	Skip to Second Main Phase
+	System: Hotkey | F9
+
+Root Page D 7	Skip to End Step
+	System: Hotkey | F10
+
+Root Page D 8	Pass Turn to Next Player
+	System: Hotkey | Ctrl + Return
+
+Advanced  A 2   Toggle Fullscreen Mode
+	System: Hotkey | Ctrl + F
+
+Advanced  A 3   Get Set Up for Commander Game
+	Multi Action:
+	    System: Hotkey | Hotkey: Ctrl + S
+	    Multi Action: Delay | Delay: 200 ms
+	    System: Hotkey | Hotkey: Ctrl + S
+	    Multi Action: Delay | Delay: 200 ms
+	    System: Hotkey | Hotkey: Ctrl + S
+	    Multi Action: Delay | Delay: 200 ms
+	    System: Hotkey | Hotkey: Ctrl + S
+	    Multi Action: Delay | Delay: 200 ms
+	    System: Hotkey | Hotkey: Ctrl + S
+	    Multi Action: Delay | Delay: 200 ms
+	    System: Hotkey | Hotkey: Ctrl + E
+	    Multi Action: Delay | Delay: 200 ms
+	    System: Hotkey | Hotkey: 7
+	    System: Hotkey | Hotkey: Return
+	    Multi Action: Delay | Delay: 500 ms
+	    System: Hotkey | Hotkey: Ctrl + L
+	    Multi Action: Delay | Delay: 200 ms
+	    System: Hotkey | Hotkey: 4
+	    System: Hotkey | Hotkey: 0
+	    System: Hotkey | Hotkey: Return
+	    Multi Action: Delay | Delay: 200 ms
+	    System: Hotkey | Hotkey: Ctrl + I
+	    Multi Action: Delay | Delay: 200 ms
+	    System: Hotkey | Hotkey: Return
+
+Advanced  B 1   Play with Top Card Revealed
+	System: Hotkey | Ctrl + N
+
+Advanced  B 3   Roll a Die (it asks how many sides)
+	System: Hotkey | Ctrl + I
+
+Advanced  C 1   Stop Playing with Top Card Revealed
+	System: Hotkey | Ctrl + N 
