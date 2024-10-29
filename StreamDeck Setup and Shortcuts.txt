@@ -70,6 +70,7 @@ Root Page A 6	HP Increase By 1
 Root Page A 7	HP Decrease By 1
 Root Page A 8	Set HP to X
 Root Page B 1	Shuffle Deck
+Root Page B 2   Undo Draw
 Root Page B 3	Draw X Cards
 Root Page B 5	Create a Token
 Root Page B 6	Add Green Counter to Card
@@ -126,6 +127,9 @@ Root Page A 8	Set HP to X
 
 Root Page B 1	Shuffle Deck
 	System: Hotkey | Ctrl + S
+
+Root Page B 2	Undo Draw
+	System: Hotkey | Ctrl + Shift + D
 
 Root Page B 3	Draw X Cards
 	System: Hotkey | Ctrl + E
