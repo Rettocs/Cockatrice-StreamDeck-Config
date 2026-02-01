@@ -30,7 +30,6 @@ Second Main Phase		F9
 Start Combat			F8
 Untap				F5
 Upkeep				Shift+F5
-Connect				Ctrl+L
 Full Screen			Ctrl+F
 Move Card to Graveyard		Ctrl+Del
 Move Top Card Face Down		Ctrl+Shift+E
@@ -57,6 +56,8 @@ View Graveyard			F4
 View Library			F3
 View Sideboard			Ctrl+F3
 View Top Cards of Library	Ctrl+W
+Shuffle Library			Ctrl+S
+Roll Dice			Ctrl+I
 
 ------------------------------------------------------------
 
